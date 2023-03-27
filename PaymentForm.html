@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <style>
+
+    body {
+         background: url(https://cdn.pixabay.com/photo/2015/07/19/13/27/credit-card-851502_960_720.jpg);
+         background-repeat: no-repeat;
+         background-size: cover;       
+         font-family: Georgia, 'Times New Roman', Times, serif;
+         margin-top: 20px ;
+         margin-left: 80px;
+         
+        }
+
+
+    a.pay:link, a.pay:visited {
+         background-color: #11acc0;
+         color: white;
+         padding: 14px 100px;
+         text-align: center;
+         text-decoration: none;
+         display: inline-block;
+        }
+        a.pay:hover, a.pay:active {
+          background-color: rgb(18, 14, 240);
+        }
+    
+    
+     </style>
+</head>
+
+<body>
+    
+    <form action="">
+        <h1> Payment Form </h1>
+        
+        <p> <h4> Required fields are followed by * </h4>
+            <br>
+            Name: * <input type="text" name="name" required >            
+        </p>
+
+    <p>
+        Email: * <input type="email" name="email" id="email" required >
+    </p>
+
+    <p>
+        Pincode * <input type="number"  name="pincode"  id="pincode" required >
+    </p>
+
+    <hr>
+    <h2>Payment Information</h2>
+    
+
+    <p>
+        Name On Card: * <input type="text" name="Name On Card" required > 
+    </p>
+    <p> Card Type: * 
+
+        <!-- select tag is used for drop down menu -->
+    <select name="card_type" id="card_type" required >
+
+        <!-- pehele wale ki value empty rahenge kyuki drop down se select karna hai -->
+        <option value="">--Select a card type--</option>
+        <option value="Visa">Visa</option>
+        <option value="Mastercard">Mastercard</option>
+        <option value="Rupay">Rupay</option>
+        <option value="Credit Card">Credit Card</option>
+        <option value="Debit Card">Debit Card</option>
+
+    </select>
+        
+
+
+    </p> 
+
+    
+    <p>
+        Card Number * <input type="Number" name="card_number"  id="card_number" required >
+    </p>
+
+    <p>
+        Expiration Date: * <input type="date" name="exp_date" id="exp_date" required >
+    </p>
+
+    <p>CVV * <input type="password" name="password" id="password" required ></p>
+
+    <p>
+        Amount * <input type="Number" name="amount"  id="amt" required >
+    </p>
+    
+    <br><br>
+
+    <center><a href="mainpage.html" target="_blank" class="pay">Pay now </a></center>
+
+    </form>
+</body>
+</html>

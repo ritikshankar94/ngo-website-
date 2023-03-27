@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<style>
+
+    html, body {
+        max-width: 100%;
+        overflow-y: hidden;
+        }
+
+    body{
+        background: url(http://registration.csc.gov.in/CADRegistration/user/assets/img/backgrounds/1@2x.jpg);
+        font-family: Arial, Helvetica, sans-serif;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        top: 60px ;
+    }
+
+    .regform{
+        width: 700px;
+        background-color: rgba(0,0,0, 0.6);
+        margin: auto;
+        color: #fff;
+        text-align: center;
+        border-radius: 10px 10px 0px 0px;
+        margin-top: 100px;
+    }
+
+    .mane{
+        background-color: rgb(00, 00, 00, 0.4);
+        width: 700px;
+        margin: auto;
+    }
+
+    .title{
+        margin-left: 20px;
+        margin-top: 30px;
+        width: 120px;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .phone{
+        position: relative;
+        margin-left: 20px;
+        top: 30px;
+        width: 120px;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .textbox{
+        position: relative;
+        color: #000000;
+        text-transform: capitalize;
+        font-size: 20px;
+        left: 230px;
+        border-radius: 8px;
+    }
+
+    .button{
+        background-color: rgba(27, 135, 168, 0.5);
+        display:block;
+        margin : 20px 0px 0px 20px;
+        text-align: center;
+        border-radius: 12px;
+        padding: 14px 110px;
+        outline: none;
+        color: white;
+        cursor: pointer;
+        transition: 0.25px;
+    }
+    .button:hover{
+        background-color: rgba(83, 144, 245, 0.6);
+    }
+</style>
+
+<body>
+    <form action="./cancel.php" method="POST">
+        <div class="regform"><h1>Cancelation Form</h1></div>
+        <div class="mane"><br><br>
+
+        <label for="fname" class="title">First name:</label>
+        <input type="text" name="fname" class="textbox" style="left: 100px;"><br><br>
+
+        <label for="number" class="phone">Contact Number:</label><br>
+        <input type="number" name="number" class="textbox"><br><br><center>
+
+        <input type="submit" name="submit" value="Cancel" class="button"></center>
+        <br>
+        </div>
+        
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Vaccinecss.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+</head>
+<div class="all">
+<div class="needforvaccination">
+<title>Vaccination</title>
+
+
+<body >
+    
+    <header><h1>Vaccine is must</h1></header>
+        <h3>Need for Vaccination</h3><center>
+        <img src="https://img.etimg.com/thumb/msid-81215778,width-300,imgsize-304457,,resizemode-4,quality-100/vaccination.jpg" height="10%" width="40%" class="image"></center>
+    <p>Our world is currently facing the terror of the global pandemic CORONAVIRUS disease.Entire team of front line workers,doctors,hospital staff etc are working day night to protect us from this desaese.<br>
+    Earlier we dont have the cure of this disease but now vaccine of corona virus is discovered. Vaccine is our one of the vital weapon against corona virus.<br> Indian Government has started one of the world's biggest vaccine distrubuter system.It is free of cost A person can easily access to vaccine by registring himself on COWIN site.    </p> 
+    
+    </div>
+    <div class="typeofvaccine">
+        <h3>Type of Vaccine </h3>
+    <P>Our goverment is currently using different type  of vaccine </P>
+        
+            <a href="https://www.bharatbiotech.com/covaxin.html"><li class="link1"></li></a>
+           <a href="https://www.seruminstitute.com/product_covishield.php"><li class="link2"></li></a>
+
+           <a href="https://www.precisionvaccinations.com/vaccines/sputnik-v-vaccine" ><li class="link3"></li></a>
+        </ul>
+    </div>
+        <div class="howtoapplyforvaccination">
+            <h3>HOW TO Apply for Vaccination</h3>
+        <p>There are two ways through which we can apply for the registration of vaccine </p>
+        
+        <h2> Registration through CoWIN portal</h2> 
+       
+            
+            
+        <div>
+           
+            <div> Visit the CoWIN website and click on Register/Sign in yourself.</div>
+
+            <div> Add your mobile number and click on Get OTP. After receiving the OTP, type the digits on the site, and click on ‘Verify’.</div>
+            
+            <div> Enter all your details, including photo ID proof, name, gender, and year of birth on the ‘Register for Vaccination’ page. Once this is done, hit Register.</div>
+            
+            <div>After you register, you will get the option to schedule an appointment. Click on ‘Schedule’ next to the name of the person registered.</div>
+            
+            <div>Add your pin code and click on Search. The centres in the added pin code will appear.</div>
+
+            <div>Select the date and time and click on ‘Confirm’.</div>
+            <div>To register for vaccination <a href="https://www.cowin.gov.in/home">click here</a></div>
+        </div>
+        <h2>Registration through Aarogya Setu app</h2>
+        <div>
+            <div> Open the Aarogya Setu app and click on the CoWIN tab present on the home screen</div>
+            <div> Select ‘Vaccination Registration’ and then enter your phone number. You will receive an OTP and then you can proceed to verify yourself</div>
+            <div> On the ‘Register for Vaccination’ page, enter all details, including photo ID proof, name, gender, and year of birth. Click on ‘Register’.</div>
+            <div>After you register, you will get the option to schedule an appointment. Click on Schedule next to the name of the person registered.</div>
+            <div> Add your pin code and click on Search. The centres in the added pin code will appear.</div>
+            <div> Select the date and time and click on ‘Confirm’.</div>
+            <div>to install the Aarogya Setu <a href="https://play.google.com/store/apps/details?id=nic.goi.aarogyasetu&hl=en_IN&gl=US">click here</a></div>
+            
+        </div>
+        </div>
+        
+        <div class="mythsandrumorsaboutvaccination">
+            <h3>Myths and rumors About Vacccine</h3>
+        <P>In our country there are lot of rumors regarding vaccination specilly in rural areas.There are some of  the rumors listed below </P>
+        <div><center>
+            <img class="mySlides" src="https://www.cdc.gov/coronavirus/2019-ncov/images/vaccines/pos_test.png">
+<img class="mySlides" src="https://www.cdc.gov/coronavirus/2019-ncov/images/vaccines/DNA.png">
+<img class="mySlides" src="https://www.cdc.gov/coronavirus/2019-ncov/images/vaccines/vaccine-magnetic_myth.png" width="30%"  height="30%">
+<img class="mySlides" src="https://www.cdc.gov/coronavirus/2019-ncov/images/vaccines/cough.png">
+<button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button></center>
+
+    <div>People die after vaccination</div>
+    <div>There are different vaccine for different religion</div>
+    <div>Receiving a COVID-19 vaccine cause you to be magnetic</div>
+    <div>You can get COVID-19 from the vaccines.</div>
+    <div>I’ve already had COVID-19, so I don’t need to get vaccinated.</div>
+    <div>The COVID-19 vaccines will alter your DNA. </div>
+    <div> If you get vaccinated, it could make you infertile</div>
+    <div> 
+        </div>
+        </div>
+    </div>
+
+    <p class="click">Click on Register to participate in this event </p>
+<br>
+<center><a href="http://localhost/project/form.html" target="_blank" class="register">Register</a></center>ō
+<br> <br>
+
+<p class="click">Click on cancel your registration to cancel your registration for thi event</p>
+<br>
+<center><a href="http://localhost/project/cancel.html" target="_blank" class="register">Cancel your registration</a></center>ō
+
+    <script>
+        var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1}
+  x[slideIndex-1].style.display = "block";
+  setTimeout(carousel, 4000); // Change image every 2 seconds
+}
+    </script>
+            </body>
+</html>

@@ -1,0 +1,154 @@
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    padding: 10px;
+    height: 2500px;
+  }
+  
+  .left {
+    width: 18%;
+  }
+  
+  .right {
+    width: 75%;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .ngo{
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-size: 80px;
+  }
+  
+  th.events{
+      padding: 5px;
+      border: 1px solid red;
+  }
+  
+  .topics{
+      color: #53c867; 
+       /* 460946 */
+      font-family: cursive;
+      font-size: 46px;
+  }
+  
+  .description{
+      font-size: 28px;
+      color: #0c8f33;
+      font-family: garamond bold;
+  }
+  
+  .picture{
+    height: 200px;
+    width: 400px;
+    transition: transform 0.5s;
+    border: 1px;
+    margin-top: 25px;
+    margin-left: 10px;
+    border-style: double;
+    border-width: 5px;
+  }
+  
+  .picture:hover{
+    transform: scale(1.2);
+  }
+  
+  .abcd{
+    color: #2e012e;
+    color: #f3593e;
+    color: green;
+  }
+  
+  .footer {
+    margin-left: -7px;
+    margin-bottom: -15px;
+    width: 101%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    height: 30px;
+    font-size: 20px;
+  }
+  
+  .pay{
+    font-size: 23px;
+    margin-left: 30px;
+    font-family: garamond bold;
+    list-style: none;
+  }
+
+   
+.payImage{
+  height: 27px;
+  width: 27px;
+}
+ 
+.navbar{
+  background-color:rgba(158, 192, 47, 0.76);
+  /* background-color: teal; */
+  border-radius: 10px;
+  width: 1000px;
+}
+.navbar ul{
+  overflow: auto ;
+}
+ 
+.navbar li{
+  margin: 16px 5px;
+  float: left ;
+  list-style: none;
+  font-size: 24px;
+}
+ 
+.navbar li a{
+  padding: 0px 50px;
+  text-decoration: none;
+  color: teal;
+}
+ 
+.navbar li a:hover{
+  color: rgb(205, 50, 50);
+}
+ 
+.button{
+  font-size: 20px;
+  background-color: #53c867;
+  color: #fff;
+  border-radius: 5px;
+  border-style: none;
+  border-color: black;
+  padding: 5px 5px 5px 5px;
+ 
+}
+
+.links{
+  text-decoration: none;
+  color: rgb(161 0 67 / 85%);
+
+}
+
+.links:hover{
+  color: rgba(161, 0, 67, 0.5);
+}
+ 
+
+  
+  
+  /* rgb(3, 3, 144); */
+  
+  

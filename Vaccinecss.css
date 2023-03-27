@@ -1,0 +1,110 @@
+.needforvaccination{
+    background-image: url();
+    background-size: cover;
+  }
+  .needforvaccination h3{
+      
+      margin: 10vh 1vh 1vh 10vh;
+      font-size: 7vh;
+      
+      font-family: cursive;
+  
+  }
+   body{
+      background-color: #FFFAF0;
+   }
+   .typeofvaccine h3{
+     
+      font-family: cursive;
+   margin: 10vh 1vh 1vh 10vh;
+      font-size: 7vh;}
+      .typeofvaccine img,li{
+          display:inline-block;
+      }
+   .howtoapplyforvaccination h3{
+      font-family: cursive;
+    margin: 10vh 1vh 1vh 10vh;
+      font-size: 7vh;
+      margin-left: 20px;
+   }
+  
+   .mythsandrumorsaboutvaccination h3{
+      font-family: cursive;
+  margin: 10vh 1vh 1vh 10vh;
+     font-size: 7vh;
+   }
+   .all p{
+       font-family: cursive;
+       font-size: 3vh;
+       margin-left:40px ;
+   }
+   .all h1{
+       font-family:cursive;
+       font-size: 15vh;
+   }
+   
+  
+   .link1 {
+       background-image: url(https://images.firstpost.com/wp-content/uploads/2020/12/COVAXIN-vaccine-by-Bharath-Biotech_Bharath-Biotech-2.jpg?impolicy=website&width=640&height=363);
+       padding: 10vh 20vh 40vh 30vh;
+       margin: 10vh 2vh 10vh 2vh;
+       box-shadow: 2px 2px 20px 20px rgba(0, 0, 0, 0.115);
+       /* height: 430px; */
+       width: 50px;
+      }
+      .link2 {
+          background-image: url(https://akm-img-a-in.tosshub.com/indiatoday/images/story/202106/covishild_0_1200x768.jpeg?Ak.IaOIYB.rUwWe2h.ogXnQntJu5JYeO&size=770:433);
+          padding: 10vh 20vh 40vh 30vh;
+          margin: 10vh 2vh 10vh 2vh;
+          box-shadow: 2px 2px 20px 20px rgba(0, 0, 0, 0.115);
+          /* margin: 10vh; */
+          background-size: cover;
+          width: 50px;
+      }
+      .link3{
+          
+          background-image: url(https://static.india.com/wp-content/uploads/2021/05/Sputnik-V-Price-NEWS.jpg);    
+          box-shadow: 2px 2px 20px 20px rgba(0, 0, 0, 0.115);
+          padding: 10vh 20vh 40vh 30vh;
+          /* margin: 10vh; */
+          margin: 10vh 2vh 10vh 2vh;
+          /* height: 430px; */
+          width: 60px;
+      }
+  header h1{
+      background-image: url(https://image.freepik.com/free-vector/banner-design-with-illustration-lady-doctor-health-medical-concept_1302-5673.jpg);
+      padding: 15vh 20vh 20vh 30vh;
+      margin: 10vh;
+      background-size: cover;
+      text-align: center;
+      font-size: 15vh;
+      border-radius: 30px;
+  }
+  .howtoapplyforvaccination div{
+      font-size: 20px;
+      margin-left: 40px;
+  }
+  .howtoapplyforvaccination h2{
+      margin-left: 30px;
+  }
+  
+  .image{
+      border-style: double;
+      border-width: 8px;
+  }
+  
+  a.register:link, a.register:visited {
+      background-color: #2bdb83;
+      color: white;
+      padding: 14px 100px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+     }
+     a.register:hover, a.register:active {
+       background-color: rgb(47, 223, 55);
+     }
+  
+     p.click{font-size: 30px; text-align: center;}
+  
+  
